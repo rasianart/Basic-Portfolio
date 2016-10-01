@@ -87,14 +87,14 @@ header {
 	color: #777777;
 }
 .body {
-	float: left;
+
 }
 .aboutblock {
 	background-color: white;
 	border: 2px solid #dddddd;
 	float: left;
-
-	margin-right: 50%;
+	width: 725px;
+	height: 430px;
 	margin-left: 10%;
 	margin-top: 2%;
 }
@@ -107,14 +107,33 @@ header {
 	padding-bottom: 4%;
 }
 .connect {
-	width: 400px;
-	height: 300px;
+	width: 230px;
+	height: 150px;
 	float: right;
 	border: 2px solid #dddddd;
 	background-color: white;
+	margin-right: 10%;
+	margin-top: 2%;
+	text-align: center;
+	padding-top: 10px;
+}
+.head2 {
+	color: #4aaaa5;
+	font-size: 18px;
+	font-family: Georgia;
+	
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.icons {
+	word-spacing: 3px;
+}
+.line3 {
+	width: 90%;
+	color: #777777;
 }
 #line1 {
-	color: #777777;
+	color: #cccccc;
 	margin-top: 0px;
 }
 .line2 {
@@ -167,5 +186,21 @@ header {
 	position: relative;
 }
 footer {
-	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	
 }
+.footline {
+	height: 5px;
+	margin-top: 40%;
+	background-color: #4aaaa5;
+}
+.copyright {
+	text-align: center;
+	padding-top: 3%;
+	background-color: #666666;
+	height:60px;
+}
+
