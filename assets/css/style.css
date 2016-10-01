@@ -50,7 +50,16 @@ header {
 	background-color: white;
 	z-index: 1;
 	height: 75px;
-	width: 100%;
+	position: fixed;
+	right: 0;
+	top: 0;
+	left: 0;
+}
+html {
+	width: 960px;
+	margin:0 auto; 
+    
+    
 }
 #name {
 	background-color: #4aaaa5;
@@ -77,6 +86,7 @@ header {
 	line-height: 70px;
 	font-family: Arial;
 	font-size: 14px;
+
 }
 .headlinks a:link {
 	text-decoration: none;
@@ -86,42 +96,43 @@ header {
 	text-decoration: none;
 	color: #777777;
 }
-.body {
+body {
 
 }
 .aboutblock {
 	background-color: white;
 	border: 2px solid #dddddd;
 	float: left;
-	width: 725px;
-	height: 430px;
+	width: 475px;
+	height: 550px;
 	margin-left: 10%;
-	margin-top: 2%;
+	margin-top: 12%;
+
 }
 .head1 {
 	color: #4aaaa5;
 	font-size: 24px;
 	font-family: Georgia;
-	padding-left: 5%;
+	padding-left: 3.5%;
 	padding-top: 4%;
 	padding-bottom: 4%;
 }
 .connect {
-	width: 230px;
+	width: 225px;
 	height: 150px;
 	float: right;
 	border: 2px solid #dddddd;
 	background-color: white;
-	margin-right: 10%;
-	margin-top: 2%;
+	margin-right: 9%;
+	margin-top: 12%;
 	text-align: center;
 	padding-top: 10px;
+	
 }
 .head2 {
 	color: #4aaaa5;
 	font-size: 18px;
 	font-family: Georgia;
-	
 	padding-top: 4%;
 	padding-bottom: 4%;
 }
@@ -134,15 +145,20 @@ header {
 }
 #line1 {
 	color: #cccccc;
-	margin-top: 0px;
+	margin-top: 75px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	left: 0;
+
 }
 .line2 {
-	width: 90%;
+	width: 93%;
 	background-color: #777777;
 }
 .bio {
-	margin-left: 5%;
-	margin-right: 5%;
+	margin-left: 4%;
+	margin-right: 4%;
 	margin-bottom: 5%;
 	margin-top: 3%;
 	color: #777777;
@@ -185,8 +201,17 @@ header {
 .images {
 	position: relative;
 }
+#porttable {
+	margin-top: 25px;
+	
+}
+th {
+	
+	padding-left: 75px;
+	padding-bottom: 15px;
+}
 footer {
-	position: absolute;
+	position: fixed;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -194,13 +219,12 @@ footer {
 }
 .footline {
 	height: 5px;
-	margin-top: 40%;
 	background-color: #4aaaa5;
 }
 .copyright {
 	text-align: center;
-	padding-top: 3%;
+	padding-top: 2%;
 	background-color: #666666;
-	height:60px;
+	height:45px;
 }
 
