@@ -107,7 +107,16 @@ body {
 	height: 550px;
 	margin-left: 10%;
 	margin-top: 12%;
-
+}
+.portfolioblock {
+	background-color: white;
+	border: 2px solid #dddddd;
+	float: left;
+	width: 475px;
+	height: 625px;
+	margin-left: 10%;
+	margin-top: 12%;
+	margin-bottom: 115px;
 }
 .head1 {
 	color: #4aaaa5;
@@ -207,14 +216,32 @@ body {
 }
 th {
 	
-	padding-left: 75px;
+	padding-left: 25px;
 	padding-bottom: 15px;
+}
+form {
+	color: #777777;
+	margin-left: 3.5%;
+}
+input {
+	width: 435px;
+}
+#submit {
+	background-color: #4aaaa5;
+	width: 75px;
+	height: 30px;
+	border: none;
+	color: white;
+}
+.defaulttext {
+	color: #999999;
 }
 footer {
 	position: fixed;
 	right: 0;
 	bottom: 0;
 	left: 0;
+	z-index: 2;
 	
 }
 .footline {
