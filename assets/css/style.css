@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header {
+	background-color: white;
+	z-index: 1;
+	height: 75px;
+	width: 100%;
+}
+#name {
+	background-color: #4aaaa5;
+	width: 200px;
+	height: 75px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 0px;
+}
+
+#h-text {
+	color: white;
+	text-align: center;
+	font-family: Georgia;
+	font-size: 24px;
+	padding-top: 20px;
+}
+.headlinks {
+	float: right;
+	color: #777777;
+	text-decoration: none;
+	margin-right: 10%;
+	word-spacing: 30px;
+	line-height: 70px;
+	font-family: Arial;
+	font-size: 14px;
+}
+.headlinks a:link {
+	text-decoration: none;
+	color: #777777;
+}
+.headlinks a:visited {
+	text-decoration: none;
+	color: #777777;
+}
+.body {
+	float: left;
+}
+.aboutblock {
+	background-color: white;
+	border: 2px solid #dddddd;
+	float: left;
+
+	margin-right: 50%;
+	margin-left: 10%;
+	margin-top: 2%;
+}
+.head1 {
+	color: #4aaaa5;
+	font-size: 24px;
+	font-family: Georgia;
+	padding-left: 5%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+.connect {
+	width: 400px;
+	height: 300px;
+	float: right;
+	border: 2px solid #dddddd;
+	background-color: white;
+}
+#line1 {
+	color: #777777;
+	margin-top: 0px;
+}
+.line2 {
+	width: 90%;
+	background-color: #777777;
+}
+.bio {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-top: 3%;
+	color: #777777;
+	float:right;
+	word-spacing: 2px;
+}
+#biopic {
+	
+	float: left;
+	padding-right: 3%;
+}
+.biotext {
+	word-spacing: 4px;
+	line-height: 1.5;
+	font-family: Arial;
+	font-size: 14px;
+}
+.tag {
+   float: center;
+   position: absolute;
+   z-index: 1;
+   background-color: #4aaaa5;
+   color: white;
+   font-family: Georgia;
+   text-align: center;
+   width: 200px;
+   top: 67%;
+   line-height: 40px;
+   font-size: 14px;
+   text-decoration: none;
+}
+.tag a:link {
+	text-decoration: none;
+	color: white;
+}
+.tag a:visited {
+	text-decoration: none;
+	color: white;
+}
+.images {
+	position: relative;
+}
+footer {
+	text-align: center;
+}
