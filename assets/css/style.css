@@ -222,9 +222,13 @@ th {
 form {
 	color: #777777;
 	margin-left: 3.5%;
+	line-height: 20px
 }
 input {
 	width: 435px;
+}
+textarea {
+	border-color: #D3D3D3;
 }
 #submit {
 	background-color: #4aaaa5;
