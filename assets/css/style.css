@@ -18,6 +18,11 @@ header {
 	float: left;
 	margin-left: 10%;
 	margin-top: 0px;
+	cursor: move;
+	z-index: 3;
+  	&:hover {
+    background: darken(orange, 5);
+  }
 }
 
 #h-text {
@@ -52,9 +57,39 @@ header {
 	font-size: 15px;
 }*/
 body {
-
+	background-image: url("file:///Users/psegur/Basic-Portfolio/assets/images/background.png");
 }
 .aboutblock {
+	background-color: white;
+	border: 2px solid #dddddd;
+	float: left;
+	width: 475px;
+	height: 550px;
+	margin-left: 10%;
+	margin-top: 12%;
+	cursor: url('http://carmamarketinghub.com/wp-content/uploads/sites/2/2015/05/crosshair.svg') 25 15, auto;
+}
+.bio {
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-bottom: 5%;
+	margin-top: 3%;
+	color: #777777;
+	float:right;
+	word-spacing: 2px;
+}
+#biopic {
+	
+	float: left;
+	padding-right: 3%;
+}
+.biotext {
+	word-spacing: 4px;
+	line-height: 1.5;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+}
+.contactblock {
 	background-color: white;
 	border: 2px solid #dddddd;
 	float: left;
@@ -101,7 +136,12 @@ body {
 	padding-bottom: 4%;
 }
 .icons {
-	word-spacing: 3px;
+	word-spacing: 6px;
+	font-size: 0px;
+	padding-top: 10px;
+}
+.icon:hover {
+	outline: 2px solid gray;
 }
 .line3 {
 	width: 90%;
@@ -119,26 +159,6 @@ body {
 .line2 {
 	width: 93%;
 	background-color: #777777;
-}
-.bio {
-	margin-left: 4%;
-	margin-right: 4%;
-	margin-bottom: 5%;
-	margin-top: 3%;
-	color: #777777;
-	float:right;
-	word-spacing: 2px;
-}
-#biopic {
-	
-	float: left;
-	padding-right: 3%;
-}
-.biotext {
-	word-spacing: 4px;
-	line-height: 1.5;
-	font-family: Arial;
-	font-size: 14px;
 }
 .tag {
    float: center;
@@ -197,6 +217,7 @@ textarea {
 	height: 30px;
 	border: none;
 	color: white;
+	cursor: pointer;
 }
 .defaulttext {
 	color: #999999;

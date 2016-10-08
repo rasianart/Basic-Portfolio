@@ -6,11 +6,3 @@ $(document).ready(function(){
     	$('#name').fadeTo('slow', 1);
     });
 });
-$(document).ready(function(){
-	$('.hl').mouseenter(function() {
-    	$('.hl').slideDown();
-    });
-    $('.hl').mouseleave(function() {
-    	$('.hl').slideUp();
-    });
-});
